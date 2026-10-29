@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.contanier {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+/* header  */
+
+.header {
+}
+
+.header-inner {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.header-link {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #2f2f2f;
+}
+
+.header-btn {
+  width: 144px;
+  height: 50px;
+  gap: 10px;
+  border-radius: 12px;
+  padding-top: 14px;
+  padding-right: 30px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  border: none;
+  background-color: #e92129;
+  color: white;
+  margin-left: 10px;
+}
+
+nav {
+  backdrop-filter: blur(30px);
+  position: fixed;
+  width: 443px;
+  height: 62px;
+  top: 36px;
+  left: 950px;
+  gap: 26px;
+    opacity: 1;
+  border-radius: 14px;
+  padding: 6px;
+  z-index: 1;
+}
+
+.fa-solid {
+  color: #e4252c;
+  margin-left: 8px;
+}
+
+/* hero  */
+
+.hero {
+}
+
+.hero-inner {
+  margin-bottom: 135px;
+  margin-top: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 87px;
+}
+
+.hero-box {
+  width: 478.65625px;
+  height: 340px;
+}
+
+.hero-title {
+  font-weight: 800;
+  font-style: Extrabold;
+  font-size: 80px;
+  line-height: 106%;
+  letter-spacing: 0%;
+  background: linear-gradient(120.79deg, #242424 3.25%, #e92129 75.17%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* about  */
+
+.about {
+}
+
+.about-inner {
+  margin-bottom: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-title {
+  width: 492px;
+  height: 170px;
+  font-weight: 800;
+  font-style: Extrabold;
+  font-size: 80px;
+  line-height: 106%;
+  letter-spacing: 0%;
+}
+
+.about-box {
+  width: 697px;
+  height: 289px;
+}
+
+.box-title {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  line-height: 119%;
+  letter-spacing: 0%;
+  margin-bottom: 33px;
+}
+
+.box-text {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  margin-bottom: 33px;
+}
+
+/* service  */
+
+.service {
+  background: radial-gradient(
+    circle at 50% 30%,
+    #7a0c0c 0%,
+    #2b0303 50%,
+    #050000 100%
+  );
+  /* background: linear-gradient(90deg, #e4252c, black, #e4252c); */
+  width: 1512px;
+  height: 320px;
+  backdrop-filter: blur(496px);
+}
+
+.service-inner {
+}
+
+.service-title {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 106%;
+  letter-spacing: 0%;
+  color: #e92129;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 51px 0;
+}
+
+.service-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  left: 50px;
+  top: 180px;
+  gap: 30px;
+}
+
+.card {
+  width: 250px;
+  height: 235px;
+  /* gap: 30px; */
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 4px 33px 0px #0000001a;
+
+  img {
+    width: 31px;
+    height: 34px;
+    margin-bottom: 30px;
+  }
+}
+
+.card-title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 148%;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #292929;
+  margin-bottom: 6px;
+}
+
+.card-text {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+/* Portfolio  */
+
+.port {
+}
+
+.port-inner {
+  margin-top: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.port-box {
+  width: 443px;
+  height: 216px;
+  display: flex;
+    justify-content: center;
+  flex-direction: column;
+  
+  }
+
+.port-title {
+  font-weight: 800;
+  font-style: Extrabold;
+  font-size: 80px;
+  leading-trim: NONE;
+  line-height: 106%;
+  letter-spacing: 0%;
+}
+
+.port-text {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18.51px;
+  leading-trim: NONE;
+  line-height: 23.13px;
+  letter-spacing: 0%;
+}
+
+.port-btn {
+  width: 186px;
+  height: 52px;
+  border: none;
+  border-radius: 12px;
+  padding-top: 14px;
+  padding-right: 30px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  background-color: #e92129;
+  color: white;
+}
+
+.img {
+  
+  position: relative;
+  left: 130px;
+  gap: 20px;
+}
